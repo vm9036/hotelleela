@@ -1,0 +1,70 @@
+.dinning_home_main{
+    background-color: #fdd2c1;
+}
+
+.dinning_home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    padding-block: 50px;
+}
+
+.dinning_home_images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dinning_home_images img{
+    width: 461px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.dinning_mix_content{
+    display: flex;
+    align-items: center;
+}
+
+.dinning_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dinning_content h2{
+    font-family: 'Angie Sans';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.dinning_content p{
+    font-family: 'Mr Eaves';
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 27px;
+    letter-spacing: 1px;
+    max-width: 600px;
+}
+
+.dinning_logo img {
+    width: 300px;
+    height: 153px;
+    padding: 20px;
+}
+
+.dinning_content button {
+    padding: 10px 15px;
+    width: 20%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #4e5a73;
+    border: none;
+    font-family: 'Angie Sans';
+}
