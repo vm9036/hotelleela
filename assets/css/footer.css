@@ -1,0 +1,105 @@
+.main_footer{
+    background: url(/assets/images/FooterBg.jpg) #363848;
+    height: 390px;
+}
+
+.footer_mix_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_contact {
+    margin: 50px 0 21px 0;
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+
+.footer_contact .footer_logo img{
+    width: 469px;
+    height: 115px;
+}
+
+.footer_contact .footer_mix{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    font-family: 'Mr Eaves';
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.footer_links .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-block: 25px;
+}
+
+.footer_links .links li{
+    list-style: none;
+}
+
+.footer_links .links li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Mr Eaves';
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Mr Eaves';
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.footer_buttons{
+    margin:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer button{
+    padding: 13.5px;
+    font-family: 'Mr Eaves';
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.footer_buttons .en_btn{
+    background: #A69585;
+}
+
+.footer_buttons .acc_btn{
+    background: #0563AE;
+}
+
+.footer_copyright{
+    display: flex;
+    justify-content:space-around;
+    background: #181c25;
+    color: #495062;
+    padding: 8px;
+    font-family: 'Mr Eaves';
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.footer_copyright .name{
+    font-style: italic;
+    text-decoration: underline;
+    color: #fff;
+}

@@ -1,0 +1,35 @@
+.main_southern{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    padding-block: 40px;
+}
+
+.southern_img img{
+    width: 350px;
+    height: 482px;
+}
+
+.southern_content{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    max-width: 630px;
+}
+
+.southern_content h2{
+    font-size: 40px;
+    font-family: 'Angie Sans';
+    font-weight: 400;
+}
+
+.southern_content p {
+    font-size: 21px;
+    color: #494949;
+    line-height: 36px;
+    font-family: 'Mr Eaves';
+    text-align: justify;
+    font-weight: 400;
+}
+

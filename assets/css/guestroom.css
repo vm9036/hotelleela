@@ -1,0 +1,52 @@
+.guest_room_bg{
+    background-color: #4e5a73;
+    width: 100%;
+    height: 785px;
+}
+
+.main_guest_room {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.guest_room_img img{
+    width: 1296px;
+    height: 500px;
+    margin-top: 45px;
+}
+
+.guest_room_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 21px;
+}
+
+.guest_room_content h2{
+    color: #fff;
+    font-family: 'Angie Sans';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.guest_room_content p{
+    color: #fff;
+    font-family: 'Mr Eaves';
+    font-size: 17px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.guest_room_content button{
+    padding: 12px;
+    width: 15%;
+    font-family: 'Angie Sans';
+    font-size: 16px;
+    color: #4e5a73;
+    font-weight: 700;
+}
+
